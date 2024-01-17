@@ -1,0 +1,5 @@
+^renv$
+^renv\.lock$
+^DRGEXCOR\.Rproj$
+^\.Rproj\.user$
+^data-raw$
