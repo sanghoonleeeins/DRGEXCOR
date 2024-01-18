@@ -36,7 +36,7 @@ Simply, run these code lines in your R console. Just copy the lines, paste them 
 
 ```{r}
 # Install and load multiple packages at a time.  This will take 10~15 min if you are installing any packages for the first time.
-nstall.packages(c("devtools","usethis","pacman","data.table","dplyr","tidyr","ggplot2","ggpubr","purrr","shiny"), repos="http://cran.us.r-project.org")
+install.packages(c("devtools","usethis","pacman","data.table","dplyr","tidyr","ggplot2","ggpubr","purrr","shiny"), repos="http://cran.us.r-project.org")
 pacman::p_load(devtools,usethis,pacman,data.table,dplyr,tidyr,ggplot2,ggpubr,purrr,shiny)
 ```
 ![InstalldevtoolsPackage](https://github.com/sanghoonleeeins/DRGEXCOR/assets/87338488/2108518f-2a13-4a8c-a451-911f83126bfc)
