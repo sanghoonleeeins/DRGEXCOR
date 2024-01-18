@@ -39,8 +39,7 @@ Simply, run these code lines in your R console. Just copy the lines, paste them 
 nstall.packages(c("devtools","usethis","pacman","data.table","dplyr","tidyr","ggplot2","ggpubr","purrr","shiny"), repos="http://cran.us.r-project.org")
 pacman::p_load(devtools,usethis,pacman,data.table,dplyr,tidyr,ggplot2,ggpubr,purrr,shiny)
 ```
-
-![Installing required packages](/Users/sanghoonlee/Library/CloudStorage/OneDrive-UniversityofPittsburgh/H45_ShinyApp_METABRICSCANB_TROP2/06b_Rpacakge_GEXPLOER/InstalldevtoolsPackage.png)
+![InstalldevtoolsPackage](https://github.com/sanghoonleeeins/DRGEXCOR/assets/87338488/2108518f-2a13-4a8c-a451-911f83126bfc)
 
 ### Step4. Install DrGEXCOR R package
 
@@ -51,8 +50,7 @@ devtools::install_github("sanghoonleeeins/DRGEXCOR")
 # Load your DrGEXCOR package. Note you DON'T need quotation. 
 library(DRGEXCOR)
 ```
-
-![Install Dr.GEXCOR package](/Volumes/Expansion/CCBR_XWANGLAB10_original/T88_LeukemiaTREM1_Wei_2023/06d_ShinyApp_Rpackage_Github/InstallDRGEXCOR.png)
+![InstallDRGEXCOR](https://github.com/sanghoonleeeins/DRGEXCOR/assets/87338488/ca6d5798-bb51-4a36-bf77-dfe763482237)
 
 </br>
 
@@ -72,6 +70,5 @@ shinyApp(ui=UserInterface, server=ShinySever)
 
 For now, you should choose a gene of DNA repair in the Gene Query box. You can't type in your gene of interest. 
 
-![Caption for the picture.](/Volumes/Expansion/CCBR_XWANGLAB10_original/T88_LeukemiaTREM1_Wei_2023/06d_ShinyApp_Rpackage_Github/RunDRGEXCORShinyApp.png)
-
+![RunDRGEXCORShinyApp](https://github.com/sanghoonleeeins/DRGEXCOR/assets/87338488/9a052126-cad9-4ee1-a8da-600415d3830f)
 
