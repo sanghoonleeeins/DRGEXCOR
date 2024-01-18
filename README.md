@@ -36,8 +36,8 @@ Simply, run these code lines in your R console. Just copy the lines, paste them 
 
 ```{r}
 # Install and load multiple packages at a time.  This will take 10~15 min if you are installing any packages for the first time.
-# install.packages(c("devtools","usethis","pacman","data.table","dplyr","tidyr","ggplot2","ggpubr","purrr","shiny"), repos="http://cran.us.r-project.org")
-# pacman::p_load(devtools,usethis,pacman,data.table,dplyr,tidyr,ggplot2,ggpubr,purrr,shiny)
+nstall.packages(c("devtools","usethis","pacman","data.table","dplyr","tidyr","ggplot2","ggpubr","purrr","shiny"), repos="http://cran.us.r-project.org")
+pacman::p_load(devtools,usethis,pacman,data.table,dplyr,tidyr,ggplot2,ggpubr,purrr,shiny)
 ```
 
 ![Installing required packages](/Users/sanghoonlee/Library/CloudStorage/OneDrive-UniversityofPittsburgh/H45_ShinyApp_METABRICSCANB_TROP2/06b_Rpacakge_GEXPLOER/InstalldevtoolsPackage.png)
@@ -45,15 +45,11 @@ Simply, run these code lines in your R console. Just copy the lines, paste them 
 ### Step4. Install DrGEXCOR R package
 
 ```{r}
-## Let's change your working directory to the folder you stored "DrGEXCOR_0.0.11.tar.gz" file. Note you need quotation inside parenthesis, like setwd("YourFolderAddress")
-# setwd("/Volumes/Expansion/CCBR_XWANGLAB10_original/T88_LeukemiaTREM1_Wei_2023/06c_ShinyAppRpackage_CorrPlot_DNARepair/DrGEXCOR")
-
 # Install DRGEXCOR R package. This takes 1~2 minutes. If you see a message like a screenshot blow, type "1" and hit Enter. 
-# devtools::install_github("sanghoonleeeins/DRGEXCOR")   
+devtools::install_github("sanghoonleeeins/DRGEXCOR")   
 
-## Load your DrGEXCOR package. Note you DON'T need quotation. 
-# library(DRGEXCOR)
-
+# Load your DrGEXCOR package. Note you DON'T need quotation. 
+library(DRGEXCOR)
 ```
 
 ![Install Dr.GEXCOR package](/Volumes/Expansion/CCBR_XWANGLAB10_original/T88_LeukemiaTREM1_Wei_2023/06d_ShinyApp_Rpackage_Github/InstallDRGEXCOR.png)
@@ -71,7 +67,7 @@ Copy the code line below and run it in your R console.
 
 ```{r}
 ## DrGEXCOR. It takes about 10 seconds to start a ShinyApp depending on your computer spec.
-# shinyApp(ui=UserInterface, server=ShinySever)
+shinyApp(ui=UserInterface, server=ShinySever)
 ```
 
 For now, you should choose a gene of DNA repair in the Gene Query box. You can't type in your gene of interest. 

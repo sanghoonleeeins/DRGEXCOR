@@ -45,15 +45,11 @@ Simply, run these code lines in your R console. Just copy the lines, paste them 
 ### Step4. Install DrGEXCOR R package
 
 ```{r}
-## Let's change your working directory to the folder you stored "DrGEXCOR_0.0.11.tar.gz" file. Note you need quotation inside parenthesis, like setwd("YourFolderAddress")
-# setwd("/Volumes/Expansion/CCBR_XWANGLAB10_original/T88_LeukemiaTREM1_Wei_2023/06c_ShinyAppRpackage_CorrPlot_DNARepair/DrGEXCOR")
-
 # Install DRGEXCOR R package. This takes 1~2 minutes. If you see a message like a screenshot blow, type "1" and hit Enter. 
 # devtools::install_github("sanghoonleeeins/DRGEXCOR")   
 
-## Load your DrGEXCOR package. Note you DON'T need quotation. 
+# Load your DrGEXCOR package. Note you DON'T need quotation. 
 # library(DRGEXCOR)
-
 ```
 
 ![Install Dr.GEXCOR package](/Volumes/Expansion/CCBR_XWANGLAB10_original/T88_LeukemiaTREM1_Wei_2023/06d_ShinyApp_Rpackage_Github/InstallDRGEXCOR.png)
