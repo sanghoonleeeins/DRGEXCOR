@@ -4,17 +4,17 @@
 \alias{cal_z_score}
 \title{z-score calibratin}
 \usage{
-cal_z_score(MyExpData_RowHugoSymb)
+cal_z_score(NumberVector)
 }
 \arguments{
-\item{x}{data.frame input}
+\item{NumberVector}{NumberVector input}
 }
 \value{
-z-score data.frame
+z-score NumberVector
 }
 \description{
 z-score calibratin
 }
 \examples{
-cal_z_score(MyExpData_RowHugoSymb)
+cal_z_score(NumberVector)
 }

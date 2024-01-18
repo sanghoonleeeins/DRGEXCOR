@@ -4,7 +4,7 @@
 \alias{Func_EmptyPlot}
 \title{Title Func_EmptyPlot}
 \usage{
-Func_EmptyPlot(EmptyDF, Xaxis, Yaxis, YAxisGene)
+Func_EmptyPlot(EmptyDF, Xaxis, Yaxis, YAxisGene = DNARepairGene)
 }
 \arguments{
 \item{EmptyDF}{When no DNA repaire gene}
@@ -13,7 +13,7 @@ Func_EmptyPlot(EmptyDF, Xaxis, Yaxis, YAxisGene)
 
 \item{Yaxis}{DNA repair gene}
 
-\item{YAxisGene}{}
+\item{YAxisGene}{DNARepairGene}
 }
 \value{
 an empty plot
@@ -22,5 +22,5 @@ an empty plot
 Title Func_EmptyPlot
 }
 \examples{
-Func_EmptyPlot(EmptyDF, Xaxis,Yaxis, YAxisGene)
+Func_EmptyPlot(EmptyDF, Xaxis,Yaxis, YAxisGene=DNARepairGene)
 }

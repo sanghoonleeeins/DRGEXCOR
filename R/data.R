@@ -48,6 +48,28 @@
 #' @source <https://github.com/sanghoonleeeins/DRGEXCOR>
 "LSCCExpData"
 
+#' @title NumberVector
+#'
+#' @description NumberVector
+#'
+#' @format vector
+#' \describe{
+#' }
+#' @source <https://github.com/sanghoonleeeins/DRGEXCOR>
+"NumberVector"
+
+#' @title MyColor
+#'
+#' @description MyColor
+#'
+#' @format vector
+#' \describe{
+#' }
+#' @source <https://github.com/sanghoonleeeins/DRGEXCOR>
+"MyColor"
+
+
+
 #' @title DNARepairGene
 #'
 #' @description DNARepairGene

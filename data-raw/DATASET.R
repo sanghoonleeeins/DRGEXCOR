@@ -73,11 +73,20 @@ MyExpData_RowHugoSymb <- MyExpData_RmvNARow %>% tibble::column_to_rownames("Hugo
 
 usethis::use_data(MyExpData_RowHugoSymb, compress="xz", overwrite=TRUE)
 
+NumberVector<- c(1:10)
+usethis::use_data(NumberVector, compress="xz", overwrite=TRUE)
+
+
+
 
 ## EmptyDF
 Xaxis<-c(3:22); Yaxis<-rnorm(20,1,0.5);
 EmptyDF<-data.frame(Xaxis, Yaxis)
 usethis::use_data(EmptyDF, compress="xz", overwrite=TRUE)
+
+MyColor <- rep("white", 8)
+usethis::use_data(MyColor, compress="xz", overwrite=TRUE)
+
 
 
 UserInterface <- fluidPage(
